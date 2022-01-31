@@ -7,7 +7,7 @@ class User #création de la classe User
     def initialize(email_to_add, age_to_add) #besoin de faire appel à initialize pour ajouter
         @email = email_to_add 
         @age = age_to_add 
-        @@all_users << {:age => :email}
+        @@all_users << self
         
     end
 
